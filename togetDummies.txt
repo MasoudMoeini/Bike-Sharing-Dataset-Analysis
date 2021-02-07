@@ -1,0 +1,10 @@
+#quick solution to get dummies
+dummy_fields = ['season', 'weathersit', 'mnth', 'hr', 'weekday']
+for each in dummy_fields:
+    dummies = pd.get_dummies(Mydata[each], prefix=each, drop_first=False)
+    Mydata = pd.concat([Mydata, dummies], axis=1)
+
+fields_to_drop = ['instant', 'dteday', 'season', 'weathersit', 
+                  'weekday', 'atemp', 'mnth', 'workingday', 'hr']
+data = Mydata.drop(fields_to_drop, axis=1)
+data.head()
