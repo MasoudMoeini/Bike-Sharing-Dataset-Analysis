@@ -11,7 +11,7 @@ The aim for this project is to predict the count of total rental bikes.
 <br/>
 <br/>
 <br/>
-<img width="961" alt="![Screenshot 2021-11-28 at 09 29 49](https://user-images.githubusercontent.com/43514418/143735316-b0b21986-e791-4534-84fe-6eae9fc1ece6.png)">
+![Screenshot 2021-11-28 at 09 29 49](https://user-images.githubusercontent.com/43514418/143735316-b0b21986-e791-4534-84fe-6eae9fc1ece6.png)"
 <br/>
 <br/>
 <br/>
